@@ -1,0 +1,213 @@
+.Parent{
+    height: 100vh;
+    
+    
+    
+}
+.header{
+    margin: 5vw 40vw;
+}
+.header hr{
+    width: 5vw;
+    border: 1px solid #57d131;
+    font-weight: 600;
+    margin-left: 2vw;
+}
+.header h2{
+    font-weight: 400;
+}
+.header span{
+    font-weight: 800;
+
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.Education{
+    
+    
+    width: 40%;
+}
+.Matric{
+    border: 2px solid #dadada;
+    margin-top: 2vw;
+    box-shadow: 5px 5px 5px 5px #57d131;
+
+}
+.Fsc{
+    border: 2px solid #dadada;
+    margin-top: 2vw;
+    box-shadow: 5px 5px 5px 5px #57d131;
+
+}
+.bachelors{
+    border: 2px solid #dadada;
+    margin-top: 2vw;
+    box-shadow: 5px 5px 5px 5px #57d131;
+
+}
+.Matric :hover{
+    border: 5px solid #57d131;
+}
+.Fsc :hover{
+    border: 5px solid #57d131;
+}
+.bachelors :hover{
+    border: 5px solid #57d131;
+}
+.Education h1{
+    font-weight: 200;
+    color: #575151;
+    font-size: 2.5vw;
+    padding-left: 10vw ;
+
+}
+.Education hr{
+    width: 30vw;
+    margin-left: 5vw;
+}
+.Education h2{
+    font-weight: 200;
+    color: #5a5858;
+    font-size: 2.5vw;
+    padding: 2vw 10vw;
+    text-decoration: underline;
+
+}
+.Education p{
+    font-weight: 200;
+    color: #6b6a6a;
+    font-size: 1.5vw;
+    padding: 0.4vw 1vw;
+    
+
+}
+.Experience{
+    
+    width: 40%;
+    height: 100vh;
+}
+.Experience h1{
+    font-weight: 200;
+    color: #575151;
+    font-size: 2.5vw;
+    padding-left: 10vw ;
+
+}
+.SMIT{
+     border: 2px solid #dadada;
+    margin-top: 2vw;
+    box-shadow: 5px 5px 5px 5px #57d131;
+}
+.SMIT H1{
+    text-decoration: underline;
+}
+.Experience p{
+    font-weight: 200;
+    color: #6b6a6a;
+    font-size: 1.5vw;
+    padding: 0.4vw 1vw;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 2vw;
+    gap: 2vw;
+}
+.footer input{
+    height: 4vw;
+    background-color: rgb(218, 215, 215);
+    border: none;
+    border-radius: 5px;
+    padding-left: 2vw;
+
+}
+.footer input:hover{
+    border: 2px solid black;
+}
+.footer button{
+    width: 10vw;
+    height:4vw;
+    background-color: #57d131;
+    color: white;
+    border: none;
+    border-radius: 2vw;
+    margin-left: 12vw;
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+.footer button:hover{
+    background-color: #459c2a;
+    transition: 0.5s ease-in;
+    color: #fff;
+}
+h3{
+    font-weight: 200;
+    color: rgb(82, 81, 81);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+
+    
+    
+}
+.contact i{
+    padding-top:0.3vw ;
+    font-size: 1.4vw;
+}
+
+@media (max-width:650px) {
+    .section{
+     flex-direction: column;   
+    }
+    .section .Education{
+        width: 100%;
+        padding-top: 5vw;
+        height: 100%;
+    }
+    .Education p {
+        font-weight: 200;
+        color: #6b6a6a;
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+    .Education   h2{
+        font-size: 5vw;
+        
+    }
+    .Education h1{
+        font-size: 5vw;
+    }
+    .Experience{
+     
+        width: 100%;
+        
+    
+    }
+    .Experience p{
+        font-weight: 200;
+        color: #6b6a6a;
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+    .Experience h1{
+        font-size: 5vw;
+    }
+    .footer input{
+        height: 7vw;
+    }
+    .footer button{
+        width: 20vw;
+        height:7vw;
+        margin-left: 33vw;
+        font-size: 2.4vw;
+    }
+    .contact i{
+        font-size: 4vw;
+    }
+}

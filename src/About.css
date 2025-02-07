@@ -1,0 +1,83 @@
+.About{
+    background-color: #dadada;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vw;
+    
+}
+.pic{
+    background-color: yellow;
+    width: 45%;
+    height: 100%;
+}
+.pic img{
+    width: 100%;
+    height: 100% ;
+}
+.aboutme{
+    padding: 12vw 0vw;
+    width: 45%;
+    height: 100%;
+}
+.aboutme hr{
+    width: 5vw;
+    border: 1px solid #57d131;
+    font-weight: 600;
+}
+.aboutme h2{
+    padding: 2vw 15vw;
+    color: #2c3e50;
+    font-weight: 200;
+}
+.aboutme span{
+    font-weight: 800;
+}
+.aboutme p{
+    color: gray;
+    font-size: 1em;
+    padding: 0vw 4.8vw;
+}
+.btn1{
+    padding: 0.8vw 2.4vw;
+    border-radius: 4vw;
+    margin-left: 15vw;
+    margin-top: 2vw;
+    border: none;
+    background-color: #57d131;
+}
+.btn1:hover{
+    background-color: #459c2a;
+    transition: 0.5s ease-in;
+    color: #fff;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+@media (max-width:650px) {
+
+    .About{
+        flex-direction: column;
+    }
+    .pic{
+        width: 100%;
+    }
+    .aboutme{
+        width: 100%;
+        height: 100vh;
+    }
+    .aboutme h2{
+        font-size: 6vw;
+    }
+    .aboutme p{
+        font-size: 3vw;
+        padding: 1vw 2vw;
+    }
+    .btn1{
+        padding: 1.8vw 2.9vw;
+        margin-left: 30vw;
+    }
+}

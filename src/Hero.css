@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.main{
+    background-image:  linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) ), url('pic1.JPG');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav h1{
+    font-weight: 900;
+    margin-top: 2vw;
+}
+.list{
+    width: 60%;
+    
+}
+.list ul a{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    
+}
+.list ul{
+    display: flex;
+    gap: 5vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+.nav i{
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-top: 3.6vw;
+    display: none;
+}
+.list ul a:hover{
+    
+    
+    color: #dadada;
+    
+    padding: 0.2vw 0.2vw;
+    
+
+}
+.Typing{
+    color: white;
+    padding: 8vw 20vw;
+}
+.Typing h1{
+    font-size: 5vw;
+    font-weight: 100;
+    margin-left: 3vw;
+}
+.Typing span{
+    font-weight: 800;
+    color: #57d131;
+}
+.Typing p{
+    font-size: 1.2rem;
+    color: gray;
+    padding: 2vw 6vw;
+}
+.Typing button{
+    padding: 1rem 1.5rem;
+    border-radius: 6rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #57d131;
+    border-color: #57d131;
+    border: none;
+    margin-left: 20vw;
+}
+.Typing button a{
+    text-decoration: none;
+    color: #fff;
+}
+.Typing button:hover{
+    background-color: #397a25;
+    transition: 0.5s ease-in;
+    color: #fff;
+}
+@media (max-width:650px) {
+    .list {
+        display: none;
+    }
+    .nav i{
+        display: block;
+        margin-left: 10vw;
+    }
+    .nav{
+        justify-content: space-around;
+        gap: 20vw;
+    }
+    .Typing{
+        padding: 10vw 2vw;
+        
+        
+
+
+    }
+    .Typing h1{
+        font-size: 7vw;
+        padding: 4vw 2vw;
+    }
+    .Typing p{
+        font-size: 4vw;
+        padding: 4vw 6vw;
+    }
+    .Typing button{
+        margin-top: 4vw;
+    }
+}
